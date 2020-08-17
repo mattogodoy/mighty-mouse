@@ -94,11 +94,12 @@ Fun fact: I used the prototype of the Mighty Mouse in a breadboard to design its
 You can find the STL files of the enclosure in the `stl` directory of this repository.
 
 You can also find the files in Thingiverse:
-https://www.thingiverse.com/thing:4572814
+<https://www.thingiverse.com/thing:4572814>
 
 ## Usage demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I-pYOd7H8Ac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can see the mouse working in real life here:
+[![Watch the video](img/thumb.png)](https://youtu.be/I-pYOd7H8Ac)
 
 ## Next steps
 
