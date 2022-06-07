@@ -18,7 +18,7 @@ import inspect, os, sys
 
 
 def run(context):
-
+# This section executes once on script start 
     ui = None
     app = adsk.core.Application.get()
     ui = app.userInterface
@@ -35,7 +35,10 @@ def run(context):
             break
     else:
         ui.messageBox(str("no gamepad detected"))
-    
+# This section executes once on script start 
+
+
+# Loop starts
 
     while True:      
         run = ret
@@ -47,7 +50,7 @@ def run(context):
         futil.log(str(axisXYZRUV))
 
 
-        deg = axisXYZRUV[0]/2000 #Angle of one step - degree
+        deg = axisXYZRUV[5]/2000 #Angle of one step - degree
 
 
 
