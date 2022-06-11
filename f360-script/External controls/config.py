@@ -9,7 +9,8 @@ import os
 # to set this to True while developing an add-in and set it to False when you
 # are ready to distribute it.
 DEBUG = True
-VERSION = "0.1b"
+VERSION = "11.06.22 12hr"
+AUTHOR = "InTostor"
 
 # Gets the name of the add-in from the name of the folder the py file is in.
 # This is used when defining unique internal names for various UI elements 
@@ -20,3 +21,5 @@ COMPANY_NAME = 'ACME'
 
 # Palettes
 sample_palette_id = f'{COMPANY_NAME}_{ADDIN_NAME}_palette_id'
+tools_tab_id = "ToolsTab"
+my_tab_name = "test"  # Only used if creating a custom Tab
